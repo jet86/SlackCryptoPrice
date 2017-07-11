@@ -23,28 +23,32 @@
     SOFTWARE.
     */
     
-    $url_slack = '';
-    $url_slack_dev = '';
+    $url_slack = 'https://hooks.slack.com/services/YOUR/WEBHOOK/URL';
+    $url_slack_dev = 'https://hooks.slack.com/services/YOUR/DEVWEBHOOK/URL';
 
-    $script_name = '';
-    $script_name_dev = '';
+    $script_name = '/index.php';
+    $script_name_dev = '/dev.php';
 
-    $token_symbol = '';
-    $token_name = '';
+    $token_symbol = 'GNT';
+    $token_api_name = 'golem-network-tokens';
 
-    $fiat_1 = '';
-    $fiat_2 = '';
-    $fiat_3 = '';
+    $fiat_1 = 'EUR';
+    $fiat_2 = 'GBP';
+    $fiat_3 = 'AUD';
 
-    $icon_up = '';
-    $icon_flat = '';
-    $icon_down = '';
+    $fiat_1_prefix = '€';
+    $fiat_2_prefix = '£';
+    $fiat_3_prefix = 'AU $';
+
+    $icon_up = 'up_g.png';
+    $icon_flat = 'no_y.png';
+    $icon_down = 'down_r.png';
     
-    $emoji_up = '';
-    $emoji_flat = '';
-    $emoji_down = '';
+    $emoji_up = 'up_g';
+    $emoji_flat = 'no_y';
+    $emoji_down = 'down_r';
     
-    $colour_up = '';
-    $colour_flat = '';
-    $colour_down = '';
+    $colour_up = '#00D000';
+    $colour_flat = '#DDD000';
+    $colour_down = '#D00000';
 ?>
