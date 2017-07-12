@@ -25,6 +25,8 @@ Example Screenshot:
 * `$token_symbol` - the 3 or 4 letter token symbol
 * `$token_api_name` - the `id` (not name) of the token used by the [CoinMarketCap API](http://coinmarketcap.com/api/)
 3. Create a cron job or scheduled task to run index.php at the required interval.
+### Running Multiple Bots
+If you wish to have regular updates on multiple different tokens/coins, you will need to create multiple directories on your webserver (one for each token/coin) and have a copy of the php files in each. You will also need to create a cron job or scheduled task for the index.php in each directory. As long as they are posting to the same slack channel, you will not need to create additional webhooks.
 ## Troubleshooting
 * running `index.php?mode=live` in a web browser will output the result to the browser, rather than posting it to the Slack channel
 * `dev.php` is an exact copy of `index.php`. It exists so that you can edit and test the code without it affecting the scheduled posts when `index.php` is run by cron or scheduled tasks.
