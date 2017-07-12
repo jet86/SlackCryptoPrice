@@ -1,6 +1,12 @@
 # SlackCryptoPrice
 Crypto Price Bot for Slack, which posts price and market cap updates from [CoinMarketCap](http://coinmarketcap.com/) at regular intervals.
+
+
+Example Screenshot:
+
 ![Example Screenshot](https://github.com/jet86/SlackCryptoPrice/raw/master/SlackCryptoPriceExample.png "Example Screenshot")
+
+
 ## Requirements
 - A web server with PHP 5 and cURL installed
 ## Installation and Configuration
