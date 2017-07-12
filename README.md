@@ -1,5 +1,6 @@
 # SlackCryptoPrice
 Crypto Price Bot for Slack, which posts price and market cap updates from [CoinMarketCap](http://coinmarketcap.com/) at regular intervals.
+Originally built for the [Golem](https://golem.network/) Slack.
 
 
 Example Screenshot:
